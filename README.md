@@ -2,13 +2,13 @@
 # Speech Emotion Recognition
 
 ## Overview
-**Speech Emotion Recognition (SER)** aims to automatically identify human emotions from speech signals using machine learning and deep learning techniques. This repository demonstrates models and code for extracting features from speech and classifying emotions, providing a hands-on platform for research or application in affective computing and voice-driven interfaces.[1][2][3]
+**Speech Emotion Recognition (SER)** aims to automatically identify human emotions from speech signals using machine learning and deep learning techniques. This repository demonstrates models and code for extracting features from speech and classifying emotions, providing a hands-on platform for research or application in affective computing and voice-driven interfaces.
 
 ## Features
-- Processes raw audio data to extract vital features (MFCC, chroma, mel, etc.).[2][4]
-- Implements multiple algorithms (e.g., MLP, CNN, RNN-LSTM).[3][1]
-- Support for popular speech emotion datasets such as **RAVDESS** and **TESS**.[4][2]
-- Interactive prediction (command-line or notebook).[1][3]
+- Processes raw audio data to extract vital features (MFCC, chroma, mel, etc.).
+- Implements multiple algorithms (e.g., MLP, CNN, RNN-LSTM).
+- Support for popular speech emotion datasets such as **RAVDESS** and **TESS**.
+- Interactive prediction (command-line or notebook).
 
 ## Installation
 
@@ -38,25 +38,24 @@ pip install -r requirements.txt
 
 ## Datasets
 
-- **RAVDESS**: North American accent, 24 actors, 8 emotions.[2][4]
-- **TESS**: Two actresses, seven emotions.[5][4]
+- **RAVDESS**: North American accent, 24 actors, 5 emotions.
+- **TESS**: Two actresses, seven emotions.
 
 ## Emotions Supported
 
 - Neutral
-- Calm
+
 - Happy
 - Sad
 - Angry
 - Fearful
 - Disgust
-- Pleasurable Surprise
 
 ## Technologies
 
 - Python (Librosa, scikit-learn, Keras/TensorFlow or PyTorch)
 - Jupyter Notebook for interactive exploration
-- Soundfile, numpy, pandas for data manipulation.[3][2]
+- Soundfile, numpy, pandas for data manipulation.
 
 ## Results
 
